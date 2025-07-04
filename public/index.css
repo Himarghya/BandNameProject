@@ -1,0 +1,36 @@
+html{
+    background-color: #1a2228;
+}
+.container{
+    height: 50vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+#Heading{
+    color: red;
+    font-size: 4rem;
+    display: flex;
+    align-self: center;
+}
+#GenerateName{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+input{
+    font-size: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 41px cadetblue;
+
+}
+.footer{
+    display: flex;
+    margin-top: 42%;
+    color: orangered;
+
+}
+.Animation{
+  transform: scale(0.8);
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Band Generator Project</title>
+</head>
+<link href="/index.css" rel="stylesheet">
+<body>
+    <div class="container">
+        <% if(locals.BandName) { %>
+        <h1 id="Heading"><%= BandName %></h1>   
+        <% } else { %>
+        <h1 id="Heading">Band Name Generator</h1>
+        <% } %>  
+        <div id="GenerateName"> 
+            <form action="/submit" method="post">
+                <input  type="submit" value="GenerateName">
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <footer>
+            ©All copyrights are reserved 
+        </footer>
+    </div>
+<script src="/Script.js" charset="UTF-8"></script>
+</body>
+</html>
